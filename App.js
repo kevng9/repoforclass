@@ -39,7 +39,6 @@ export default class App extends React.Component {
 }
 
   checkActive(board){
-    //do something here
       return ((board == this.state.currentBoard || this.state.currentBoard == 99) && (this.state.board[board] == 0));
   }
 
