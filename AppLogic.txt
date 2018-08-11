@@ -1,0 +1,40 @@
+MMOUTTTG
+
+ O |   | O ||   |   |   || 1 | 2 | 3
+-----------||-----------||-----------
+   | X |   ||   |   |   || 4 | 5 | 6
+-----------||-----------||-----------
+   |   |   ||   |   |   || 7 | 8 | 9
+===========||===========||===========
+   |   | O ||   |   |   ||   |   |
+-----------||-----------||-----------
+   |   |   ||   |   |   ||   |   |
+-----------||-----------||-----------
+   |   |   ||   |   | O ||   |   |
+===========||===========||===========
+   |   |   ||   |   |   ||   |   |
+-----------||-----------||-----------
+   |   |   ||   |   |   || X |   |
+-----------||-----------||-----------
+   |   |   ||   |   |   ||   |   |
+
+Component for a 3x3 ttt board <TTTboard>
+component is used 9 times
+
+global States
+current player
+current playing TTTboard
+
+board State
+board layout
+
+App.js
+./src/
+  TTTBoard.js
+
+
+
+
+Game flow:
+1. all boards are available
+2. player picks a board to play in
