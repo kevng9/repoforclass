@@ -24,7 +24,6 @@ export default class App extends React.Component {
   }
 
   async processTurn(winner, nextBoard){
-    console.log('winner:',winner,'nextBoard:',nextBoard);
     currentPlayer = this.state.turnNumber%2+1;
     this.setState({currentPlayer:currentPlayer});
     this.setState({turnNumber:this.state.turnNumber+1});
