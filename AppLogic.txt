@@ -38,3 +38,10 @@ App.js
 Game flow:
 1. all boards are available
 2. player picks a board to play in
+3. whichever spot player places piece in is the next board to be played
+4. if the next board already has a winner, the board next in line clockwise is the board chosen
+5. player wins if the player wins three adjacent boards (horizontal, vertical or diagonal)
+
+
+bug:
+1. main board does not add more than one board at a time

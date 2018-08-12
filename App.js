@@ -33,8 +33,9 @@ export default class App extends React.Component {
         newBoard[this.state.currentBoard] = winner;
         await this.setState({board:newBoard}, ()=>{if (this.state.board[nextBoard] != 0) {nextBoard++};});
     }
-    if (this.state.board[nextBoard] != 0) {nextBoard++};
-    this.setState({currentBoard:nextBoard},()=>{console.log('next:',this.state.currentBoard); this.render();});
+    while (this.state.board[nextBoard] != 0) {if(nextBoard>8){nextBoard=0}else{nextBoard++}};
+    this.setState({currentBoard:nextBoard}, ()=>{ this.render();});
+    console.log('main board:',this.state.board);
 }
 
   checkActive(board){
