@@ -1,5 +1,8 @@
 {
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 97154
+  "packagerPid": 98680,
+  "expoServerNgrokUrl": "https://a9-tm9.kevng9.repoforclass.exp.direct",
+  "packagerNgrokUrl": "https://packager.a9-tm9.kevng9.repoforclass.exp.direct",
+  "ngrokPid": 98705
 }
